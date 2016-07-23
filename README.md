@@ -1,9 +1,7 @@
 这是一个运用观察者模式写的网络状态监听库!
 
 注意在清单文件中添加网络权限:
-< uses-permission   android:name="android.permission.INTERNET"  />
-< uses-permission   < android:name="android.permission.ACCESS_WIFI_STATE" />
-  uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+< uses-permission   android:name="android.permission.INTERNET"  /><br/>< uses-permission   android:name="android.permission.ACCESS_WIFI_STATE" /> <br/>< uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 **用法** <br/>
 1-继承NetApplication,或者在AndroidManifest.xml中声明(套路)
