@@ -1,9 +1,9 @@
 package shone.netmonitor;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -15,7 +15,7 @@ import com.net.framework.NetObserver;
  * Date     23/07/16.
  * Github   https://github.com/shonegg
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private Context mContext;
     private NetObserver mNetObserver = new NetObserver() {
         @Override
