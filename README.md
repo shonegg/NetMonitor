@@ -5,7 +5,7 @@
 < uses-permission   < android:name="android.permission.ACCESS_WIFI_STATE" />
   uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-**用法**
+**用法** <br/>
 1-继承NetApplication,或者在AndroidManifest.xml中声明(套路)
  
 ```  
